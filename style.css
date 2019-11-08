@@ -1,0 +1,140 @@
+body {   
+     font-family: Arial;    
+     font-size: 12px;    
+     background-image: url("BOLA.png");
+    }
+    
+    img {    
+        width: 200px;}
+        
+    .foto {    
+        width: 200px;    
+        height: 230px;    
+        margin-left: 50px;    
+        margin-bottom: 15px;    
+        margin-top: -30px;    
+        float: left;    
+        border: 0px solid black;    
+        color: #0a06ee;    
+        font-size: 1.6em;   
+         text-align: center;
+        }
+        
+    .ft {    
+        border-radius: 1000px;}
+        
+    .form1 {    
+        margin: auto;    
+        width: 750px;
+    }
+    #form {    
+        background: transparent;    
+        border-radius: 4px;    
+        height: 340px;
+    }
+    .p2 {    
+        font-size: 2.5em;    
+        color: #e74c3c;    
+        text-align: center;    
+        padding-top: 20px;    
+        margin-bottom: -10px;
+    }
+    .p1 {    
+        font-size: 1.5em;    
+        color: white;    
+        text-align: center;   
+         padding-top: 0px;    
+         margin-bottom: 30px;
+        }
+        
+        label { 
+               display: block;    
+               text-align: right;    
+               width: 140px;    
+               float: left;    
+               margin-left: -8px;
+            }
+            
+        .small {    
+            color: #f7f1f1;    
+            display: block;    
+            font-size: 11px;    
+            font-weight: normal;    
+            text-align: right;    
+            width: 140px;
+        }
+        
+        input {    
+            font-size: 1.2em;   
+             padding: 2px 2px;   
+              border:  1px solid #aacfe4;    
+              width: 150px;    
+              margin: 0px 0px 20px 45px;    
+              color: #c9c9c9;
+            }
+        
+            input.nama {    
+                background: transparent;    
+                border: 1px solid #f8f3f3;    
+                border-radius: 3px;    
+                padding: 5px;    
+                padding-left: 35px;    
+                height: 35px;    
+                width: 350px;    
+                
+            }
+            input.password {    
+                background: transparent;   
+                 border: 1px solid #f5f2f2;    
+                 border-radius: 3px;   
+                  padding: 5px;    
+                  padding-left: 35px;    
+                  height: 35px;   
+                   width: 350px;   
+                }
+                
+            #form input.nama:focus {   
+                 border: 1px solid #ecebe8;    
+                 background: transparent;       
+                 transition: 1.5s all;    
+                 -webkit-transition: 1.5s all;    
+                 -moz-transition: 1.5s all;
+                 -o-transition: 1.5s all;    
+                 text-decoration: none;
+                }
+                
+            #form input.password:focus {    
+                border: 1px solid #e6e3db;    
+                background: transparent;
+            }
+            
+        input.nama:hover {   
+             transition: 1.5s all;    
+             -webkit-transition: 1.5s all;    
+             -moz-transition: 1.5s all;    
+             -o-transition: 1.5s all;   
+              text-decoration: none;
+            }
+            
+        input.password:hover {    
+            transition: 1.5s all;    
+            -webkit-transition: 1.5s all;    
+            -moz-transition: 1.5s all;    
+            -o-transition: 1.5s all;    
+            text-decoration: none;
+        }
+
+    
+    .login {
+        background-color: #049372;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 48px;
+        border: none;
+        cursor: pointer;
+        width: 30%;
+    }
+    
+    .login:hover {
+        opacity: 0.8;
+    }
